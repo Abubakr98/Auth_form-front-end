@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.author{
+    font-family: sans-serif;
+    align-items: flex-start;
+}

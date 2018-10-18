@@ -1,0 +1,142 @@
+
+.alertClose{
+  display: none;
+}
+.alertShow{
+  display: block;
+}
+.App {
+  text-align: center;
+  min-width: 350px;
+  height: auto;
+}
+.row>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row>div>input{
+    width: 300px;
+}
+.User__paper,.SignUp__paper{
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  max-height: 80vh;
+  overflow: auto;
+  max-width: 550px;
+}
+.SignIn__paper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30%;
+  padding: 20px;
+  height: 45vh;
+  overflow: auto;
+    max-width: 400px;
+    max-height: 320px;
+}
+
+.input-group-text{
+  width: 150px;
+}
+.input-group-prepend>.asd{
+width: 100px;
+}
+.input-group-text>label{
+}
+.custom-radio{
+  margin-right: 50px;
+}
+.userData{
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.myRow{
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.myTitel{
+    width: 50%;
+    text-align: left;
+}
+.myValue{
+  width: 50%;
+  text-align: left;
+}
+.btn-danger{
+  margin: 0 20px 0 20px;
+}
+@media screen and (max-width: 500px) {
+  .row>div>input{
+
+  }
+  .userData{
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  .myTitel{
+
+      width: 40%;
+      text-align: left;
+  }
+  .myValue{
+
+    width: 60%;
+    text-align: left;
+  }
+.SignUp__paper{
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+}
+.SignIn__paper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+  height: 40vh;
+  overflow: auto;
+}
+.SignIn{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: -150px;
+}
+}
+@media screen and (max-width: 320px) {
+
+.SignUp__paper{
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+
+}
+.SignIn{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: -75px;
+}
+.SignIn__paper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  height: 50vh;
+  overflow: auto;
+}
+}
